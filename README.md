@@ -2,7 +2,9 @@
 
 ## 💻 Full-Stack Web Developer | Software Engineering Student
 
-I'm passionate about building modern web applications that solve real-world problems.
+I build fast, responsive, and scalable web applications for businesses, schools, and startups.
+
+Currently specializing in JavaScript, Node.js, Express, and modern frontend development.
 
 ### 🚀 Tech Stack
 - HTML5

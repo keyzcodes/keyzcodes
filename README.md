@@ -1,6 +1,6 @@
 # Hi 👋, I'm Sunday Jime
 
-## 💻 Full-Stack Web Developer | Software Engineering Student
+## Software Engineering Student | 💻 Full-Stack Web Developer 
 
 I build fast, responsive, and scalable web applications for businesses, schools, and startups.
 
@@ -29,6 +29,8 @@ Currently specializing in JavaScript, Node.js, Express, and modern frontend deve
 
 ### 📫 Contact Me
 📧 sundayjime1@gmail.com
+
+Contact:+2347052476984 | +2347037336964
 
 🌐 Portfolio: (Add your portfolio link)
 

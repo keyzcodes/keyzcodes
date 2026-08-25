@@ -16,6 +16,7 @@ Currently specializing in JavaScript, Node.js, Express, and modern frontend deve
 - Git & GitHub
 
 ### 📌 Featured Projects
+- Real Estate Platform
 - School Management System
 - CipherLab
 - Business Websites

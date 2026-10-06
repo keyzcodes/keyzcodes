@@ -169,6 +169,7 @@ A multi-role academic management system handling the full lifecycle of student r
 ---
 
 ## 🏨 Hotel Guest Operations & Task Automation System
+Hotel repository: https://github.com/keyzcodes/hotel-guest-automation
 
 **Node.js + Express.js + React + MongoDB Atlas + Mongoose + grammY + Gemini API**
 

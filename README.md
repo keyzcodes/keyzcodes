@@ -1,22 +1,29 @@
 # Sunday Jime
 
-### Full-Stack Software Engineer | EMEA Time Zone Contractor | Backend Architecture & Data Security
+### Full-Stack Software Engineer | Backend Architecture, Data Security & Cloud Delivery
 
-I design and build production-oriented web systems with a focus on **backend architecture, REST APIs, relational database security, access control, and scalable frontend applications**.
+I build and deploy secure, database-backed web systems across property technology, financial simulation, education, and AI-assisted operations.
 
-I work across the full development lifecycle — from requirements analysis and system design to implementation, automated testing, deployment, and operational hardening.
+My work spans the full engineering lifecycle—from requirements analysis and system architecture to frontend and backend implementation, automated testing, cloud deployment, monitoring, and operational hardening.
 
-My core strength is **security-first backend engineering**: enforcing access control at the database layer (Row Level Security, PL/pgSQL triggers), then proving it holds under change with automated test suites (pgTAP, Jest, Supertest) wired directly into CI/CD.
+My core strength is **security-first backend engineering**: designing versioned REST APIs, modelling relational and document databases, enforcing authorization close to the data through PostgreSQL Row Level Security and database functions, and verifying those controls with automated frontend, API, privacy-contract, and pgTAP tests integrated into CI/CD.
+
+I work primarily with **React, TypeScript, Node.js, Express, PostgreSQL, Supabase, MongoDB Atlas, and GitHub Actions**, with deployment experience across **Cloudflare Workers, Render, Netlify, and Vercel**.
+
+**Available for remote backend, full-stack, internship, contract, and collaborative engineering opportunities across EMEA-compatible time zones.**
 
 ---
 
 ## 🎯 Core Strengths
 
-- **Database-layer security** — Row Level Security (RLS) policies, PL/pgSQL triggers, least-privilege grants
-- **Automated security testing** — pgTAP assertions run in CI on every push, not just at write-time
-- **REST API architecture** — versioned APIs, middleware design, authentication & authorization boundaries
-- **Relational database design** — normalized schemas, foreign key integrity, CHECK constraints, complex multi-parameter queries
-- **Full-stack delivery** — React/Vite frontends fully wired to tested, secured backends
+- **Backend and REST API architecture** — versioned endpoints, modular middleware, request validation, authentication, authorization, rate limiting, and controlled error responses
+- **Database security and access control** — PostgreSQL Row Level Security, least-privilege column grants, database-authoritative roles, ownership policies, and protected RPC functions
+- **Relational and document data modelling** — normalized PostgreSQL schemas, MongoDB/Mongoose models, foreign keys, CHECK constraints, indexes, triggers, and lifecycle state validation
+- **Automated security and regression testing** — frontend, API, privacy-contract, middleware, PostgreSQL, RLS, and pgTAP assertions integrated into CI/CD
+- **Authentication and privacy engineering** — Google OAuth, Supabase Auth, bearer-token validation, protected workspaces, session lifecycle handling, and explicit public-data projection
+- **Transaction and concurrency controls** — database row locking, balance validation, integer-based financial calculations, replay handling, and race-condition-aware frontend requests
+- **Full-stack product delivery** — responsive React, TypeScript, and Vite applications connected to secured Node.js, Express, PostgreSQL, Supabase, and MongoDB backends
+- **Cloud operations and reliability** — automated deployments, production smoke checks, bounded network retries, health endpoints, continuity monitoring, and Telegram failure alerts
 
 ---
 
@@ -35,27 +42,42 @@ My core strength is **security-first backend engineering**: enforcing access con
 
 # ⚙️ Technical Ecosystem
 
-## Frontend
-HTML5 · CSS3 · JavaScript · React · Vite · Tailwind CSS · Bootstrap · Responsive UI Architecture · Component-Based Development · REST API Integration · Client-Side State Management
+## Languages
+JavaScript (ES6+, ESM & CommonJS) · TypeScript · SQL · PL/pgSQL · Python · HTML5 · CSS3
 
-## Backend
-Node.js · Express.js · REST API Architecture · API Versioning · Authentication & Authorization · Middleware Architecture · Request Validation · Rate Limiting · Security Middleware · CRUD & Resource-Oriented API Design
+## Frontend Engineering
+React · Vite · React Router · Tailwind CSS · Responsive Design · Accessible UI · Component-Based Architecture · Client-Side State Management · Fetch API · AbortController · REST API Integration
 
-## Databases & Security
-PostgreSQL · Supabase · SQL · PL/pgSQL · Row Level Security (RLS) · Database Triggers · Least-Privilege Grants · Relational Modelling · Foreign Keys & Constraints · Query Filtering & Pagination
+## Backend Engineering
+Node.js · Express.js · Versioned REST APIs · Resource-Oriented API Design · Modular Middleware · Request Validation · Authentication & Authorization · Bearer-Token Validation · Rate Limiting · Security Headers · CORS · Controlled Error Handling
 
-## Testing & DevOps
-Jest · Supertest · Vitest · pgTAP · GitHub Actions (CI/CD) · Docker · Git
+## Databases & Data Access
+PostgreSQL · Supabase · MongoDB Atlas · Mongoose · PostgREST · Relational Modelling · Document Modelling · Foreign Keys · CHECK Constraints · Indexes · Query Filtering · Sorting · Pagination
 
-## Tools
-GitHub · VS Code · Postman · Figma · Vercel · Cloudflare · Railway · Netlify
+## Data Security & Integrity
+Row Level Security (RLS) · Least-Privilege Column Grants · Database-Authoritative Roles · Ownership Policies · PL/pgSQL Functions and Triggers · Protected RPCs · Row Locking · Schema Validation · Explicit Public-Data Projection
+
+## Authentication & External Integrations
+Supabase Auth · Google OAuth · Session Lifecycle Management · Telegram Bot API · grammY · Gemini API · Formspree
+
+## Testing & Quality Engineering
+Jest · Supertest · Vitest · React Testing Library · jsdom · pgTAP · API Contract Testing · Privacy-Contract Testing · Middleware Testing · PostgreSQL Security Testing · TypeScript Static Checking · ESLint
+
+## DevOps, Deployment & Reliability
+GitHub Actions · CI/CD · Docker · Supabase CLI · Cloudflare Workers · Render · Netlify · Vercel · Production Smoke Tests · Health Checks · Scheduled Monitoring · Bounded Retries · Telegram Failure Alerts
+
+## Development & Design Tools
+Git · GitHub · VS Code · Postman · PowerShell · Figma · Chrome DevTools · Lighthouse
 
 ---
 
 # 🏗️ Production Infrastructure Projects
 
 ## 🏠 Real Estate Marketplace Platform
-**[View Repository →](https://github.com/keyzcodes/real-estate-platform)**
+### Kudu — Real Estate Marketplace
+
+**[View Repository →](https://github.com/keyzcodes/real-estate-platform)**  
+**[View Live Application →](https://real-estate-platform.sundayjime1.workers.dev/)**
 **React 19 + Vite + Node.js + Express 5 + PostgreSQL + Supabase**
 
 A property discovery and marketplace system built around zero-trust data access — no unauthenticated visitor can retrieve sensitive property data (exact coordinates, contact details) through any endpoint, enforced at the database layer, not just the application layer.
@@ -100,7 +122,10 @@ A property discovery and marketplace system built around zero-trust data access 
 ---
 
 ## 🏫 School Management Platform
-**[View Repository →](https://github.com/keyzcodes/school-management-system)**
+### School Management Platform
+
+**[View Repository →](https://github.com/keyzcodes/school-management-system)**  
+**[View Live Application →](https://school-management-system-amber-two.vercel.app/)**
 **React + Node.js + Express.js + PostgreSQL + Supabase**
 
 A multi-role academic management system handling the full lifecycle of student records — enrollment, attendance, grading, and fees — with strict role-based access control between students, teachers, and administrators.
@@ -143,8 +168,48 @@ A multi-role academic management system handling the full lifecycle of student r
 
 ---
 
+## 🏨 Hotel Guest Operations & Task Automation System
+
+**Node.js + Express.js + React + MongoDB Atlas + Mongoose + grammY + Gemini API**
+
+An AI-assisted hotel operations system that converts natural-language Telegram guest requests into structured task tickets for hotel staff.
+
+### Engineering Focus
+
+- Architected a four-layer workflow connecting Telegram guest intake, AI intent classification, an Express REST API, and MongoDB Atlas persistence
+- Integrated the Gemini API to classify unstructured guest messages into structured JSON tickets containing operational category, urgency, and request details
+- Implemented exponential-backoff retries for transient AI failures and an environment-controlled mock layer for quota-safe development and integration testing
+- Developed REST endpoints for retrieving and updating tickets across four human-controlled lifecycle states: Pending, In Progress, Resolved, and Escalated
+- Built a responsive React staff dashboard using five-second HTTP polling to display and update active requests
+- Diagnosed and resolved MongoDB Atlas SRV/DNS failures, Telegram long-polling conflicts, and Gemini rate-limit errors
+
+> **Current status:** Functional local prototype connected to a live MongoDB Atlas database. Public frontend and backend deployment is not yet available.
+
+---
+
+## 💳 Reen Bank — Banking Simulation
+
+**[View Repository →](https://github.com/keyzcodes/reen-bank-demo)**  
+**[View Live Application →](https://reen-bank-demo.netlify.app/)**  
+**React 19 + TypeScript + Vite + Tailwind CSS + Supabase Auth + PostgreSQL + Netlify**
+
+A deployed educational banking simulation with authenticated, persistent user-specific demo accounts and transaction records. The application simulates banking workflows and does not process real money.
+
+### Engineering Focus
+
+- Built four coordinated, responsive dashboard views using reusable React components and typed account and transaction state
+- Integrated Supabase email/password authentication with persistent user-specific records across three PostgreSQL application tables
+- Implemented six ownership-based Row Level Security policies to prevent users from accessing another account holder’s records
+- Restricted simulated deposit and withdrawal writes to an authenticated PostgreSQL RPC with ownership checks, per-account row locking, insufficient-balance validation, and same-ID replay handling
+- Used integer-kobo calculations and transaction-history pagination to keep balances, history, and reporting statistics consistent
+- Provisioned three zero-balance starter accounts for every authenticated user while supporting additional named accounts
+- Deployed the Vite SPA through GitHub-connected Netlify builds and verified strict TypeScript compilation and production builds
+
 ## 🧬 AI Clinical Decision Support Prototype
-**[View Repository →](https://github.com/keyzcodes/breast-cancer-diagnostic-tool)**
+### AI Clinical Decision Support Prototype
+
+**[View Repository →](https://github.com/keyzcodes/breast-cancer-diagnostic-tool)**  
+**[View Live Application →](https://implementation-breast-cancer-3.onrender.com/predict)**
 **Python + Scikit-Learn + Docker**
 
 A containerized breast cancer risk-assessment prototype, taken through the full Software Development Life Cycle from requirements gathering to validated, reproducible deployment.
@@ -156,7 +221,10 @@ A containerized breast cancer risk-assessment prototype, taken through the full 
 ---
 
 ## 🏛️ Mikkel College Website
-**[View Repository →](https://github.com/keyzcodes/mikkel-college-website)**
+### Mikkel College Website
+
+**[View Repository →](https://github.com/keyzcodes/mikkel-college-website)**  
+**[View Live Website →](https://delightful-platypus-fff026.netlify.app/)**
 **HTML5 + CSS3 + Vanilla JavaScript + Formspree**
 
 A production website built and shipped for a real client — a Nigerian secondary school — giving them a professional online presence for the first time.
@@ -168,7 +236,7 @@ A production website built and shipped for a real client — a Nigerian secondar
 
 ---
 
-## 📫 Let's Connect
-
-- **Email:** sundayjime1@gmail.com
-- **LinkedIn:** [linkedin.com/in/sunday-jime-612a27420](https://linkedin.com/in/sunday-jime-612a27420)
+## Contact
+- Email: sundayjime1@gmail.com
+- LinkedIn: linkedin.com/in/sundayjime
+- GitHub: github.com/keyzcodes
